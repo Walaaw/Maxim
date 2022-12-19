@@ -63,6 +63,8 @@ $('textarea').keypress(function(e){
 $(".slideTextLink").click(function (e){
   let newSerc=$(this).attr("href");
   $("#imgslider").attr("src",newSerc);
+  $(this).addClass("active");
+  $(".slideTextLink").not($(this)).removeClass("active")
   
 })
 // ===============================particals====================
