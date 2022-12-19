@@ -244,7 +244,7 @@ color: var(--main-color);
 
 /* start event */
 .event-image{
-    background-image: url("./images/nat60.webp");
+    background-image: url("/images/nat60.webp");
     background-size: 100% 100%;
     width: 100%;
     z-index: -1;
